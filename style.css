@@ -1,0 +1,222 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.head1 {
+    width: 100%;
+    height: 55px;
+    background: rgb(63, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.name-net {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/771/733/original/abstract-blue-and-white-colour-background-with-geometric-shape-illustration-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imgdiv {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.tomoro {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+}
+
+.mind {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.head2 {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-images {
+    display: flex;
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.service-image {
+   
+    
+    border: solid 1px rgb(236, 214, 214);
+
+}
+
+.serv-img {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    height: 75%;
+    width: 100%;
+}
+
+.div2 {
+    height: 25%;
+    width: 100%;
+}
+.div1B{
+    width: 100%;
+    height: 100%;
+}
+.head3 {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.imghead3 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    display: inline-flex;
+}
+.proect1{
+    width: 100%;
+   
+}
+.img-projects1{
+    order: 5px rgb(209, 238, 209) solid;
+    text-align: center;
+    border: 5px rgb(101 67 155) solid;
+    background: #653ea3;
+    text-align: center;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.img-proje{
+    width: 400px;
+    border-radius: 20%
+}
+.proect2{
+    width: 100%;
+   
+}
+.img-projects2{
+    order: 5px rgb(209, 238, 209) solid;
+    text-align: center;
+    border: solid 5px #c40808;
+    background: #c40808;
+    text-align: center;
+    height: 100%;
+    border-radius: 10%;
+}
+.img-proje2{
+    width: 100%;
+    height: 100;
+    border-radius: 20%
+}
+.head4 {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+}
+.emaildiv {
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+input[type="text"], input[type="email"] {
+    width: 550px;;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.input1{
+    width: 100%;
+    background: black;
+}
+.slov1{
+    width: 100%;
+    height: 145px;
+    background: rgb(14, 11, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slov img{
+   width: 29px;
+   border-radius: 50%;
+}
